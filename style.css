@@ -1,5 +1,8 @@
 body{
     margin:0;
+    background-image: url(Instrumentos\ musicais.7.png);
+    background-size: cover;
+
 }
 
 nav{
@@ -11,6 +14,7 @@ nav{
     justify-content: center;
 
 }
+
 
 nav div{
     width: 50px;
@@ -68,4 +72,33 @@ section a{
     top:8px;
     background-color: rgb(3, 247, 3);
     
+}
+
+#ancor{
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    color: white;
+    display: none;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+@media(min-width:730px){
+    nav div{
+        display: none;
+    }
+    #ancor{
+        display: flex;
+    }
+}
+@media(min-width:630px){
+    section{
+        display: flex
+
+
+    }
 }
